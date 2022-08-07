@@ -8,7 +8,6 @@ def initial_welcome():
 
 def main():
     initial_welcome()
-
     welcome_user()
 
 

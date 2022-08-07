@@ -3,5 +3,6 @@ from brain_games.scripts.games.prime import prime
 
 
 def main():
-    description = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+    description = 'Answer "yes" if given number is prime.'
+    description += ' Otherwise answer "no".'
     play(description, prime)

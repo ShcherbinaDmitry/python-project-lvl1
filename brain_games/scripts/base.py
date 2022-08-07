@@ -20,7 +20,9 @@ def play(description, game):
             print('Correct!')
             wins += 1
         else:
-            print(f"'{user_answer}' was wrong answer ;(. Correct answer was '{correct_answer}'")
+            wrong_answer = f"'{user_answer} was wrong answer ;(."
+            wrong_answer += f" Correct answer was '{correct_answer}'"
+            print(wrong_answer)
             endgame_message = f'Let\'s try again, {name}!'
             break
 

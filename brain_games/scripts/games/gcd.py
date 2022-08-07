@@ -1,6 +1,7 @@
 import random
 import math
 
+
 def gcd():
     number1 = random.randrange(0, 100)
     number2 = random.randrange(0, 100)

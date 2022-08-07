@@ -1,14 +1,14 @@
 import random
 
 
-operands = ('+', '-', '*')
+OPERANDS = ('+', '-', '*')
 
 
 def calc():
     number1 = random.randrange(0, 20)
     number2 = random.randrange(0, 20)
     op = random.randrange(0, 3)
-    operand = operands[op]
+    operand = OPERANDS[op]
 
     print(f"Question: {number1} {operand} {number2}")
 

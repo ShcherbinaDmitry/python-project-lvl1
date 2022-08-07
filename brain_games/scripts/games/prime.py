@@ -1,6 +1,7 @@
 import random
 import math
 
+
 def prime():
     number = random.randrange(1, 51)
 
